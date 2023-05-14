@@ -1,15 +1,15 @@
-const toggleTheme = document.getElementById("toggle-theme");
+const botaoAlterarTema = document.getElementById("botao-alterar-tema");
 const body = document.querySelector("body");
-const imgButton = document.querySelector(".img-button");
+const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
 
-toggleTheme.addEventListener("click", () => {
-    const themeDarkActive = body.classList.contains("theme-dark");
+botaoAlterarTema.addEventListener("click", () => {
+    const modoEscuroEstaAtivo = body.classList.contains("modo-escuro");
 
-    body.classList.toggle("theme-dark");
+    body.classList.toggle("modo-escuro");
 
-    if (themeDarkActive) {
-        imgButton.setAttribute("src", "./src/img/sun.png");
+    if (modoEscuroEstaAtivo) {
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/sun.png");
     } else {
-        imgButton.setAttribute("src", "./src/img/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/img/moon.png");
     };
 });
