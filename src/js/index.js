@@ -1,4 +1,4 @@
-const toggleTheme = document.getElementById("toggle-theme");
+const toggleTheme = document.getElementById("#toggle-theme");
 const body = document.querySelector("body");
 const imgButton = document.querySelector(".img-button");
 
