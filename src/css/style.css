@@ -46,8 +46,8 @@ header .logo{
 }
 
 header .logo,
-header .imagem-botao {
-    width: 29px;
+header .img-button {
+    width: 30px;
     transition: 0.2s ease-in-out;
 }
 
