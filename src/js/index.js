@@ -1,6 +1,6 @@
 const botaoAlterarTema = document.getElementById("toggle-theme");
 const body = document.querySelector("body");
-const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
+const imagemBotaoTrocaDeTema = document.querySelector(".img-button");
 
 botaoAlterarTema.addEventListener("click", () => {
     const modoEscuroEstaAtivo = body.classList.contains("modo-escuro");
