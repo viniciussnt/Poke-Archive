@@ -10,6 +10,6 @@ toggleTheme.addEventListener("click", () => {
     if (themeDarkActive) {
         imgButton.setAttribute("src", "./src/img/sun.png");
     } else {
-        imgButton.setAttribute("src", "./src//img/moon.png");
+        imgButton.setAttribute("src", "./src/img/moon.png");
     };
 });
