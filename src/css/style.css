@@ -46,7 +46,7 @@ header .logo{
 }
 
 header .logo,
-header .img-button {
+header .imagem-botao {
     width: 30px;
     transition: 0.2s ease-in-out;
 }
@@ -56,13 +56,13 @@ header .logo-title{
     transition: 0.2s ease-in-out;
 }
 
-header #toggle-theme {
+header #botao-alterar-tema {
     background: none;
     border: none;
 }
 
 header .logo:hover,
-header .img-button:hover,
+header .imagem-botao:hover,
 header .logo-title:hover,
 main .card-pokemon:hover {
     transform: scale(1.05);
@@ -96,7 +96,7 @@ main .card-pokemon:hover {
     background-color: #96d9d6;
 }
 
-.theme-dark .card-pokemon {
+.modo-escuro .card-pokemon {
     background-color: #a8a8a8;
 }
 
