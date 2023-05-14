@@ -8,8 +8,8 @@ toggleTheme.addEventListener("click", () => {
     body.classList.toggle("theme-dark");
 
     if (themeDarkActive) {
-        imgButton.setAttribute("src", "/src/img/sun.png");
+        imgButton.setAttribute("src", "./src/img/sun.png");
     } else {
-        imgButton.setAttribute("src", "/src/img/moon.png");
+        imgButton.setAttribute("src", "./src/img/moon.png");
     };
 });
