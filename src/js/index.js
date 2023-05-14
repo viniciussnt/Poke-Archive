@@ -1,6 +1,6 @@
 const toggleTheme = document.getElementById("toggle-theme");
 const body = document.querySelector("body");
-const imgButton = document.querySelector("img-button");
+const imgButton = document.querySelector(".img-button");
 
 toggleTheme.addEventListener("click", () => {
     const themeDarkActive = body.classList.contains("theme-dark");
