@@ -1,4 +1,4 @@
-const toggleTheme = document.getElementById("#toggle-theme");
+const toggleTheme = document.getElementById("botao-alterar-tema");
 const body = document.querySelector("body");
 const imgButton = document.querySelector(".img-button");
 
