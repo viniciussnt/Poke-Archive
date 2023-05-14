@@ -1,4 +1,4 @@
-const botaoAlterarTema = document.getElementById("botao-alterar-tema");
+const botaoAlterarTema = document.getElementById("toggle-theme");
 const body = document.querySelector("body");
 const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
 
